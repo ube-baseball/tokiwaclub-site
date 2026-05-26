@@ -2446,3 +2446,11 @@ body{
 .overlay{
   display: none !important;
 }
+  .video-hero{
+  background: black !important;
+  background-image: none !important;
+}
+  .video-bg{
+  position: relative;
+  z-index: 2;
+}
