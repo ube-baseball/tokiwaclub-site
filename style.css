@@ -2432,17 +2432,9 @@ body{
   overflow: hidden;
 }
  .top-video{
-  width: 100% !important;
-  height: auto !important;
-  max-height: none !important;
-  position: static !important;
-  transform: none !important;
+  width: 100% 
+  height: auto 
+  display:block;
 }
- .top-video{
-  width: 100% !important;
-  height: auto !important;
-  aspect-ratio: 16 / 9 !important;
-  object-fit: contain !important;
-  display: block !important;
-}
+ 
 
