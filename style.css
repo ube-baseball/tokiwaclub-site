@@ -2426,34 +2426,32 @@ body{
   }
 
 }
-  /* TOP動画エリア */
-.hero-video{
+.video-hero{
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
 }
 
-/* 動画 */
-.hero-video{
+.video-bg{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: translate(-50%, -50%);
 }
 
-/* 暗くする */
-.hero-overlay{
+.video-overlay{
   position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.45);
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  top: 0;
+  left: 0;
 }
 
-/* 文字 */
-.hero-content{
+.video-content{
   position: relative;
   z-index: 2;
   height: 100%;
@@ -2465,53 +2463,23 @@ body{
   text-align: center;
 }
 
-/* タイトル */
-.hero-content h1{
+.video-content h1{
   font-size: 80px;
-  font-weight: 900;
-  letter-spacing: 8px;
   margin-bottom: 20px;
-  text-shadow: 0 0 20px rgba(0,0,0,0.8);
 }
 
-/* サブ */
-.hero-content p{
+.video-content p{
   font-size: 24px;
-  margin-bottom: 40px;
-  text-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
-/* ボタン */
-.hero-btn{
-  padding: 14px 40px;
-  border: 2px solid white;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.hero-btn:hover{
-  background: white;
-  color: black;
-}
-
-/* スマホ */
 @media(max-width:768px){
 
-  .hero-content h1{
+  .video-content h1{
     font-size: 42px;
-    letter-spacing: 4px;
   }
 
-  .hero-content p{
+  .video-content p{
     font-size: 18px;
   }
 
-  .trial-hero .bg{
-  background: none;
-}
-
-  .trial-hero{
-  background: black;
 }
