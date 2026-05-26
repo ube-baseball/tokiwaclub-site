@@ -2435,3 +2435,14 @@ body{
   height: auto;
   display: block;
 }
+  .trial-hero{
+  background: transparent !important;
+}
+
+.trial-hero::before{
+  display: none !important;
+}
+  .bg,
+.overlay{
+  display: none !important;
+}
