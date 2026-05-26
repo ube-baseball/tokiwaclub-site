@@ -2439,8 +2439,7 @@ body{
   left: 0;
   width: 100vh;
   height: 100svh;
-  object-fit: cover;
-  object-fit:cover;
+  object-fit:contain;
   object-position:center;
 }
 
