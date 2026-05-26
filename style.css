@@ -2450,7 +2450,4 @@ body{
   background: black !important;
   background-image: none !important;
 }
-  .video-bg{
-  position: relative;
-  z-index: 2;
-}
+  
