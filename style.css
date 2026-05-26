@@ -2428,13 +2428,12 @@ body{
 }
  .video-wrap{
   width: 100%;
-  background: black;
-  overflow: hidden;
+  line-height: 0;
 }
- .top-video{
-  width: 100% 
-  height: auto 
-  display:block;
+
+.top-video{
+  width: 100%;
+  display: block;
 }
  
 
