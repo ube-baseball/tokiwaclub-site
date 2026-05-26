@@ -2426,28 +2426,16 @@ body{
   }
 
 }
-.video-hero{
+ .video-wrap{
   width: 100%;
+  background: black;
+  overflow: hidden;
 }
 
-.video-bg{
+.top-video{
   width: 100%;
   height: auto;
   display: block;
 }
-  .trial-hero{
-  background: transparent !important;
-}
-
-.trial-hero::before{
-  display: none !important;
-}
-  .bg,
-.overlay{
-  display: none !important;
-}
-  .video-hero{
-  background: black !important;
-  background-image: none !important;
-}
+ 
 
