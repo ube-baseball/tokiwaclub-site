@@ -2427,7 +2427,7 @@ body{
 
 }
   /* TOP動画エリア */
-.hero{
+.hero-video{
   position: relative;
   width: 100%;
   height: 100vh;
