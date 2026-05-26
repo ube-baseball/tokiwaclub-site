@@ -2438,5 +2438,11 @@ body{
   position: static !important;
   transform: none !important;
 }
- 
+ .top-video{
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 16 / 9 !important;
+  object-fit: contain !important;
+  display: block !important;
+}
 
